@@ -84,4 +84,6 @@ print(len_data) # length of dataset
 data_loader = DataLoader(dataset=dataset_valid_dataset, batch_size=4, shuffle=False)
 for batch_idx, samples in enumerate(data_loader):
     print(batch_idx)
+    print(samples[0].shape) # image size : torch.Size([batch_size, 1, 256, 256])
+    print(samples[1].shape) # label size : torch.Size([batch_size, 14])
 
