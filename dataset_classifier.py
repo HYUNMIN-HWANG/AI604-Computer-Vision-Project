@@ -17,7 +17,7 @@ torch.manual_seed(17)
 image_path = 'D:\Data\AI604_project\CheXpert-v1.0-small'
 
 class Chexpert_Dataset(Dataset):
-    """ Diabetes dataset."""
+    """ CheXpert dataset."""
 
     def __init__(self, path, transfrom=None, task='train'): # task = ['train', 'valid']
 
