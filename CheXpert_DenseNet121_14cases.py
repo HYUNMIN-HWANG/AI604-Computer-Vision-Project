@@ -312,5 +312,5 @@ if __name__ == '__main__':
                     print ('Epoch=%s, BatchID=[%s/%s] | Loss=%f, Val_AUC=%.4f, Best_Val_AUC=%.4f'%(epoch, idx, len(trainloader), loss.item(), np.mean(val_auc_mean), best_val_auc ))
 
     print ('Best Val_AUC is %.4f' % best_val_auc)
-
+    # Best Val_AUC is 0.8584
 
